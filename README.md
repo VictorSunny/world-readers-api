@@ -43,7 +43,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
-| `POST` | `token` | Confirms token validity. Advisable to be done before addition to request header|
+| `POST` | `token: str` | Confirms token validity. Advisable to be done before addition to request header|
 
 #
 #
