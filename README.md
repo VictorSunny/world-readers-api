@@ -60,7 +60,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 
 ```http
-  BOOK DATA READ/WRITE ENDPOINT: world-readers/v1/books/{book_id}/
+  SINGLE BOOK READ/WRITE ENDPOINT: world-readers/v1/books/{book_id}/
 ```
 
 | METHOD | JSON PARAMETERS     | Description                |
@@ -70,7 +70,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 
 ```http
-  BOOK DATA READ/WRITE ENDPOINT: world-readers/v1/books/categories/{name}/
+  BOOKS DATA READ ENDPOINT: world-readers/v1/books/categories/{name}/
 ```
 
 | METHOD | PARAMETERS     | Description                |
