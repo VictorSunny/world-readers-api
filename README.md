@@ -14,7 +14,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
-| `POST` | `email, username, first name, last name, password` | Creates a new account for user token application.|
+| `POST` | `email: str, username: str, first_name: str, last_name: str, password: str` | Creates a new account for user token application.|
 
 #
 #
@@ -26,7 +26,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
-| `POST` | `email, password` | Generates auth token [validity: 5 days], and refresh token [validity: 7 days]. |
+| `POST` | `email: str, password: str` | Generates auth token [validity: 5 days], and refresh token [validity: 7 days]. |
 
 ```http
   AUTH TOKEN REFRESH ENDPOINT: world-readers/v1/auth/jwt/refresh/
@@ -34,7 +34,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
-| `POST` | `refresh` | Generates a new auth token [validity: 5 days]. |
+| `POST` | `refresh: str` | Generates a new auth token [validity: 5 days]. |
 
 
 ```http
@@ -56,7 +56,7 @@ The world readers api obtains and maintains book recommendations from readers al
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
 | `GET` | | Retrieves all book entries from database.|
-| `POST` | `name, author, year, category_id` | Creates a new book entry in database.|
+| `POST` | `name: str, author: str, year: int, category_id: str(genre name)` | Creates a new book entry in database.|
 
 
 ```http
@@ -66,7 +66,7 @@ The world readers api obtains and maintains book recommendations from readers al
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
 | `GET` | | Retrieves single book entry with matching book_id from database.|
-| `PUT` | `name, author, year` | Updates single book entry with matching book_id in database.|
+| `PUT` | `name: str, author: str, year: int` | Updates single book entry with matching book_id in database.|
 
 
 ```http
