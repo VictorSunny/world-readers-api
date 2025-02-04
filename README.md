@@ -132,7 +132,7 @@ To run this project, you will need to add the following environment variables to
 ## Authors
 
 - [Github@VictorSunny](https://www.github.com/victorsunny)
-- [LinkedIn@VictorSunny](https://www.github.com/victor-sunny-6b06ba220)
+- [LinkedIn@VictorSunny](https://www.linkedin.com/victor-sunny-6b06ba220)
 
 
 
