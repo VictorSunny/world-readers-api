@@ -1,7 +1,7 @@
 
 # WORLD-READERS-API
 
-The world readers api obtains and maintains book recommendations from readers all over the world. Open to all would love to share their favourite pieces of peotry, as well as those looking for their next read based on criterias such as genres and publication dates.
+The world readers api obtains and maintains book recommendations from readers all over the world. Open to all who would love to share their favourite pieces of peotry, as well as those looking for their next read based on criterias such as genres and publication dates.
 
 
 ## API Reference
