@@ -4,7 +4,6 @@ import rest_framework
 from decouple import config
 from datetime import timedelta
 import dj_database_url
-from rest_framework import throttling
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -158,8 +157,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication'
     ],
     'DEFAULT_THROTTLE_CLASSES': {
-        throttling.AnonRateThrottle,
-        throttling.UserRateThrottle,
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle',
     },
 
     'DEFAULT_THROTTLE_RATES': {
