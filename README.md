@@ -4,7 +4,7 @@
 The world readers api obtains and maintains book recommendations from readers all over the world. Open to all who would love to share their favourite pieces of poetry, as well as those looking for their next read based on criterias such as genres and publication dates.
 
 #
-Header for authorized operations should contain web token in this format - {"Authentication": "Bearer [YOUR_AUTH_TOKEN]"}
+Header for authorized operations should contain web token in this format - {"Authorization": "Bearer [YOUR_AUTH_TOKEN]"}
 
 
 ## API Reference
