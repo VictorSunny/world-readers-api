@@ -4,6 +4,7 @@
 The world readers api obtains and maintains book recommendations from readers all over the world. Open to all who would love to share their favourite pieces of poetry, as well as those looking for their next read based on criterias such as genres and publication dates.
 
 
+
 ## API Reference
 
 #### SIGN UP
@@ -43,7 +44,7 @@ The world readers api obtains and maintains book recommendations from readers al
 
 | METHOD | JSON PARAMETERS     | Description                |
 | :-------- | :------- | :------------------------- |
-| `POST` | `token: str` | Confirms token validity. Advisable to be done before addition to request header|
+| `POST` | `token: str` | Confirms token validity. Advisable to be done before addition to request header. Header for authorized operations should contain web token in this format - {"Authentication": "Bearer [YOUR_AUTH_TOKEN]"}|
 
 #
 #
